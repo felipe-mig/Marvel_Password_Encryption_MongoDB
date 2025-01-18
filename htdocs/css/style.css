@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+body{
+    /* background-image: url(../images/Codecademy-use\ paint\ to\ change\ background\ colour.png);
+    background-size: cover; */
+    background-color: #ddfcff;
+}
+html{
+  scrollbar-color: #0c4469 #ffffff;
+}
+  
+/* Header */
+header {
+    width: 100vw;
+    height: 12vh;
+    background: #0c4469;
+    /* border-bottom: 1px solid #FBF5E8; */
+    box-shadow: 0px 0px 4px 4px #000000;
+  }
+  /* logo */
+  .marvellogo {
+    /* border: 1px solid red; */
+    width: 8.5vw;
+    height: 9vh;
+    background-image: url(../images/Marvel-Emblem.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    /* margin-top: 0.5vh; */
+    margin-left: 10vw;
+    margin-top: 1.25vh;
+    border-radius: 10px;
+    
+
+
+  }
+/* content */
+.dotContainer{
+  /* border: 3px solid black; */
+  width: auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  background-image: url(../images/Codecademy-use\ paint\ to\ change\ background\ colour.png);
+  background-size: cover;
+
+
+}
+.leftContainerImage{
+  border: 3px solid black;
+  height: 80vh;
+  width: 25vw;
+  background-image: url(../images/vintage-captain-america.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 7.5px;
+  box-shadow: -10px 9px 5px 0px rgba(0,0,0,0.61);
+  -webkit-box-shadow: -10px 9px 5px 0px rgba(0,0,0,0.61);
+  -moz-box-shadow: -10px 9px 5px 0px rgba(0,0,0,0.61);
+  margin-bottom: 5vh;
+  margin-left: 5vh;
+  float: left;
+  /* margin-top: 1vh; */
+}
+.rightContainer{
+  border: 3px solid black;
+  border-radius: 7.5px;
+  height: 52vh;
+  width: 42.5vw;
+  float: right;
+  margin-top: 5vh;
+  margin-right: 7.5vh;
+  box-shadow: -10px 9px 5px 0px rgba(0,0,0,0.61);
+  -webkit-box-shadow: -10px 9px 5px 0px rgba(0,0,0,0.61);
+  -moz-box-shadow: -10px 9px 5px 0px rgba(0,0,0,0.61);
+  background-color: #ddfcff;
+}
+
+  /* footer */
+footer {
+  height: auto;
+  background-color: #094871;
+  color: #f5fcf4;
+}
+.social-media-container {
+  /* border: 1px solid red; */
+
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+i {
+  font-size: 1em;
+  color: #ddfcff;
+  /* border: 1px solid red; */
+  margin-left: 0.5vw;
+
+}
+#giticon:hover {
+  cursor: pointer;
+  color: rgb(253, 8, 0);
+}
+#linkedinicon:hover {
+  cursor: pointer;
+  color: rgb(253, 8, 0);
+}
+.copy-and-terms-container {
+  /* border: 1px solid red; */
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  text-align: center;
+}
+#copyright {
+  /* border: 1px solid red; */
+  all: unset;
+  font-family: Helvetica, sans-serif;
+  font-size: .9em;
+}
+/* Form */
+form{
+  /* border: 1px solid red; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1em;
+  /* margin-left: 1.5vw; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.typeBar{
+  height: 6vh;
+  width: 28.5vw;
+  border-radius: 20px;
+  font-size: 1em;
+  padding-left: 0.5vw;
+  border: 2px solid #000000;
+
+}
+.submitButton{
+  cursor: pointer;
+  height: 6vh;
+  width: 8vw;
+  border-radius: 7.5px;
+  font-size: 1em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 0.75vw;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  background-color: #094871;
+}
+.submitButton:hover{
+  background-color: #0a5688;
+
+}
+.tableContainer{
+  /* border: 2px solid orange ; */
+  height: auto;
+  width: 37.5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Table */
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #000000;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: linear-gradient(50deg, rgba(148, 224, 247, 0.2), rgba(122, 173, 202, 0.2), rgba(72, 130, 168, 0.2));
+  width: 37.5vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1em;
+  border-collapse: collapse;
+  
+}
+td{
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  vertical-align: top;
+  text-align: center;
+  color: #152935;
+  
+}
+tr:hover{
+  background-color: #bce4ff;
+}
+thead {
+	th {
+		background-color: #094871;
+	}
+}
+th{
+  text-align: left;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #4f712e;
+  color: #ffffff;
+  font-size: 1.1em;
+}
+.countContainer{
+  /* margin-left: 2.5vw; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
